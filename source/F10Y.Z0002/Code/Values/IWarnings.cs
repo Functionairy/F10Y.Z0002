@@ -44,7 +44,14 @@ namespace F10Y.Z0002
         public string CS1591 => "CS1591";
 
         /// <summary>
+        /// <para><value>IDE0059</value></para>
+        /// <see href="https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0059"/>
+        /// </summary>
+        public string IDE0059 => "IDE0059";
+
+        /// <summary>
         /// <para><value>IDE0130</value></para>
+        /// <see href="https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0130"/>
         /// </summary>
         public string IDE0130 => "IDE0130";
     }

@@ -6,11 +6,22 @@ using F10Y.T0003;
 namespace F10Y.Z0002
 {
     /// <summary>
-	/// Find "OutputType" in: <see href="https://learn.microsoft.com/en-us/visualstudio/msbuild/common-msbuild-project-properties?view=vs-2022"/>
+    /// Values determining the output assembly type produced by Visual Studio .NET project file.
+	/// For example, executable (Exe), Windows executable (WinExe), or library (Library, the default if none is specified).
 	/// </summary>
+    /// <remarks>
+    /// Source: find "OutputType" in <see href="https://learn.microsoft.com/en-us/visualstudio/msbuild/common-msbuild-project-properties"/>
+    /// </remarks>
     [ValuesMarker]
     public partial interface IOutputTypes
     {
+        /// <summary>
+        /// <para><inheritdoc cref="L0000.IStrings.DEFAULT" path="descendant::value"/></para>
+        /// If a project file is missing an output type property, then it is assumed to be a library.
+        /// This value allows representing the situation of a missing output type property.
+        /// </summary>
+        public string DEFAULT => Instances.Strings.DEFAULT;
+
         /// <summary>
         /// <para><value>Library</value></para>
 		/// For class libraries.
