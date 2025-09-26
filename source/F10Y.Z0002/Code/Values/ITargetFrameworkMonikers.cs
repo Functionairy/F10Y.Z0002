@@ -645,6 +645,14 @@ namespace F10Y.Z0002
         public string net8_0_windows_7_0 => net8_0_windows_7_0_Constant;
 
         /// <summary>
+        /// <para><value>net9.0</value></para>
+        /// </summary>
+        public const string net9_0_Constant = "net9.0";
+
+        /// <inheritdoc cref="net9_0_Constant"/>
+        public string net9_0 => net9_0_Constant;
+
+        /// <summary>
         /// <para><value>netcore</value></para>
         /// </summary>
         public const string netcore_Constant = "netcore";
