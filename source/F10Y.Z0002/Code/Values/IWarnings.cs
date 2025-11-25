@@ -20,7 +20,7 @@ namespace F10Y.Z0002
         /// <remarks>
         /// If any parameter of a method has a documentation comment, this warning is generated for every other parameter of the method that does not.
         /// </remarks>
-		public string CS1573 => "CS1573";
+		string CS1573 => "CS1573";
 
         /// <summary>
         /// <para><value>CS1587</value></para>
@@ -30,7 +30,7 @@ namespace F10Y.Z0002
         /// <remarks>
         /// It can be 
         /// </remarks>
-        public string CS1587 => "CS1587";
+        string CS1587 => "CS1587";
 
         /// <summary>
         /// <para><value>CS1591</value></para>
@@ -41,18 +41,18 @@ namespace F10Y.Z0002
         /// When the generate-documentation-file project property is set to true,
         /// this warning is generated for each publically visible type or member that does not have a documentation comment.
         /// </remarks>
-        public string CS1591 => "CS1591";
+        string CS1591 => "CS1591";
 
         /// <summary>
         /// <para><value>IDE0059</value></para>
         /// <see href="https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0059"/>
         /// </summary>
-        public string IDE0059 => "IDE0059";
+        string IDE0059 => "IDE0059";
 
         /// <summary>
         /// <para><value>IDE0130</value></para>
         /// <see href="https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0130"/>
         /// </summary>
-        public string IDE0130 => "IDE0130";
+        string IDE0130 => "IDE0130";
     }
 }
